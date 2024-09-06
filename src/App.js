@@ -35,6 +35,7 @@ export default function App() {
 
   return (
     <div className="main-container">
+      {/* main editor */}
       <TextIgniter ref={editorRef} features={features} height={"200px"} />
       <div className="content-div">
         <p>Get Content ( check browser console)</p>
